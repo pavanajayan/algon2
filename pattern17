@@ -1,0 +1,65 @@
+<<<<<<< HEAD
+#include <iostream>
+using namespace std;
+
+int main() {
+    int rows = 4;
+
+    for (int i = 1; i <= rows; i++) {
+        
+        for (int s = 1; s <= rows - i; s++) {
+            cout << " ";
+        }
+
+        
+        char ch = 'A';
+        for (int j = 1; j <= i; j++) {
+            cout << ch;
+            ch++;
+        }
+
+        
+        ch = ch - 2; 
+        for (int j = 1; j < i; j++) {
+            cout << ch;
+            ch--;
+        }
+
+        cout << endl;
+    }
+
+    return 0;
+}
+=======
+#include <iostream>
+using namespace std;
+
+int main() {
+    int rows = 4;
+
+    for (int i = 1; i <= rows; i++) {
+        
+        for (int s = 1; s <= rows - i; s++) {
+            cout << " ";
+        }
+
+        
+        char ch = 'A';
+        for (int j = 1; j <= i; j++) {
+            cout << ch;
+            ch++;
+        }
+
+        
+        ch = ch - 2; 
+        for (int j = 1; j < i; j++) {
+            cout << ch;
+            ch--;
+        }
+
+        cout << endl;
+    }
+
+    return 0;
+}
+>>>>>>> 2f6b9333cbe00c589b66452e4b1409ca48d506c5

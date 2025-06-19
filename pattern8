@@ -1,0 +1,51 @@
+<<<<<<< HEAD
+#include <iostream>
+using namespace std;
+
+int main() {
+    int N;
+    cout << "Enter number of rows: ";
+    cin >> N;
+
+    for (int i = N; i >= 1; i--) {
+        
+        for (int space = 1; space <= N - i; space++) {
+            cout << " ";
+        }
+
+        
+        for (int star = 1; star <= (2 * i - 1); star++) {
+            cout << "*";
+        }
+
+        cout << endl;
+    }
+
+    return 0;
+}
+=======
+#include <iostream>
+using namespace std;
+
+int main() {
+    int N;
+    cout << "Enter number of rows: ";
+    cin >> N;
+
+    for (int i = N; i >= 1; i--) {
+        
+        for (int space = 1; space <= N - i; space++) {
+            cout << " ";
+        }
+
+        
+        for (int star = 1; star <= (2 * i - 1); star++) {
+            cout << "*";
+        }
+
+        cout << endl;
+    }
+
+    return 0;
+}
+>>>>>>> 2f6b9333cbe00c589b66452e4b1409ca48d506c5

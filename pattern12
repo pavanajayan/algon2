@@ -1,0 +1,59 @@
+<<<<<<< HEAD
+#include <iostream>
+using namespace std;
+
+int main() {
+    int rows = 4;
+
+    for (int i = 1; i <= rows; i++) {
+        
+        for (int j = 1; j <= i; j++) {
+            cout << j;
+        }
+
+        
+        int spaces = (rows - i) * 2;
+        for (int s = 1; s <= spaces; s++) {
+            cout << " ";
+        }
+
+     
+        for (int j = i; j >= 1; j--) {
+            cout << j;
+        }
+
+        cout << endl;
+    }
+
+    return 0;
+}
+=======
+#include <iostream>
+using namespace std;
+
+int main() {
+    int rows = 4;
+
+    for (int i = 1; i <= rows; i++) {
+        
+        for (int j = 1; j <= i; j++) {
+            cout << j;
+        }
+
+        
+        int spaces = (rows - i) * 2;
+        for (int s = 1; s <= spaces; s++) {
+            cout << " ";
+        }
+
+     
+        for (int j = i; j >= 1; j--) {
+            cout << j;
+        }
+
+        cout << endl;
+    }
+
+    return 0;
+}
+>>>>>>> 2f6b9333cbe00c589b66452e4b1409ca48d506c5

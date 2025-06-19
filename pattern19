@@ -1,0 +1,79 @@
+<<<<<<< HEAD
+#include <iostream>
+using namespace std;
+
+int main() {
+    int rows = 11;
+    int cols = 13;
+
+    for (int i = 1; i <= rows; i++) {
+        for (int j = 1; j <= cols; j++) {
+            
+            if (i == 1 || i == rows) {
+                cout << "*";
+            }
+            
+            else if ((i == 2 || i == 9) && (j <= 5 || j > 8)) {
+                cout << "*";
+            }
+            
+            else if ((i == 3 || i == 4) && (j <= 3 || j > 11)) {
+                cout << "*";
+            }
+           
+            else if ((i == 5 && (j == 1 || j == 13)) ||
+                     (i == 6 && (j == 1 || j == 13)) ||
+                     (i == 7 && (j == 1 || j > 10)) ||
+                     (i == 8 && (j <= 2 || j > 9))) {
+                cout << "*";
+            }
+           
+            else {
+                cout << " ";
+            }
+        }
+        cout << endl;
+    }
+
+    return 0;
+}
+=======
+#include <iostream>
+using namespace std;
+
+int main() {
+    int rows = 11;
+    int cols = 13;
+
+    for (int i = 1; i <= rows; i++) {
+        for (int j = 1; j <= cols; j++) {
+            
+            if (i == 1 || i == rows) {
+                cout << "*";
+            }
+            
+            else if ((i == 2 || i == 9) && (j <= 5 || j > 8)) {
+                cout << "*";
+            }
+            
+            else if ((i == 3 || i == 4) && (j <= 3 || j > 11)) {
+                cout << "*";
+            }
+           
+            else if ((i == 5 && (j == 1 || j == 13)) ||
+                     (i == 6 && (j == 1 || j == 13)) ||
+                     (i == 7 && (j == 1 || j > 10)) ||
+                     (i == 8 && (j <= 2 || j > 9))) {
+                cout << "*";
+            }
+           
+            else {
+                cout << " ";
+            }
+        }
+        cout << endl;
+    }
+
+    return 0;
+}
+>>>>>>> 2f6b9333cbe00c589b66452e4b1409ca48d506c5

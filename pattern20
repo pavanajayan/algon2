@@ -1,0 +1,41 @@
+<<<<<<< HEAD
+#include <iostream>
+using namespace std;
+
+int main() {
+    int rows = 11;
+
+    for (int i = 0; i < rows; i++) {
+        for (int j = 0; j < rows; j++) {
+            if (j == 0 || j == rows - 1 - i || j == i) {
+                cout << "*";
+            } else {
+                cout << " ";
+            }
+        }
+        cout << endl;
+    }
+
+    return 0;
+}
+=======
+#include <iostream>
+using namespace std;
+
+int main() {
+    int rows = 11;
+
+    for (int i = 0; i < rows; i++) {
+        for (int j = 0; j < rows; j++) {
+            if (j == 0 || j == rows - 1 - i || j == i) {
+                cout << "*";
+            } else {
+                cout << " ";
+            }
+        }
+        cout << endl;
+    }
+
+    return 0;
+}
+>>>>>>> 2f6b9333cbe00c589b66452e4b1409ca48d506c5
